@@ -59,7 +59,10 @@ function chartsFactory(chartType, Highcharts) {
         }
 
         componentWillUnmount() {
-            this.chart.destroy();
+           if(this.chart){
+                this.chart.destroy();
+                this.chart.__destroyed = true;
+            }
         }
 
         render() {
