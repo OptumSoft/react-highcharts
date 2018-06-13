@@ -1,6 +1,6 @@
 {
   "name": "react-highcharts",
-  "version": "16.0.1",
+  "version": "v16.0.3-beta",
   "description": "React wrapper for highcharts",
   "main": "optumsoft/ReactHighcharts.js",
   "scripts": {
